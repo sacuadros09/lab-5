@@ -11,7 +11,7 @@ export enum StarWarsAction {
 
 export interface GetStarWarsAction{
     action:StarWarsAction.GET,
-    playload: interStar[]
+    payload: interStar[]
 }
 
 export type Actions = GetStarWarsAction;

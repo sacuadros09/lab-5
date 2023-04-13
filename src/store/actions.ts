@@ -5,6 +5,6 @@ export const getCharacter = async (): Promise<GetStarWarsAction> => {
     const war = await traer_api();
     return{
         action: StarWarsAction.GET,
-        playload: war
+        payload: war
     }
 }

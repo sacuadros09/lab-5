@@ -1,4 +1,5 @@
 import {interStar} from "../types/data";
+
 export default async function traer_api() {
 	try {
 			const starwars = await fetch('https://swapi.dev/api/people/').then((res) => {
