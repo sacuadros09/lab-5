@@ -1,3 +1,8 @@
 .card{
     background-color: blueviolet;
+    width: 30%;
+    border-radius: 1em ;
+    padding: 1%;
+    margin: 3%;
+    color: rgb(24, 246, 161);
 }
